@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+header .nav1{
+    width: auto;
+    height: 70px;
+    background-color: #131921;
+    display: flex;
+}
+header .nav1 #box1{
+    width: 326px;
+    height: 100%;
+}
+header .nav1 #box2{
+    width: 699px;
+    height: 100%;
+}
+header .nav1 #box3{
+    width: 380px;
+    height: 70px;
+    gap: 20px;
+}
+#box1,
+#box2,
+#box3 {
+    display: flex;
+    align-items: center;
+}
+
+#box1 .logo{
+    margin: 10px;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+}
+#box1 .logo img{
+    width: 98px;
+    height: 60px;
+    object-fit: contain;
+}
+#box1 .logo h2{
+    color: #ffffffe2;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: -9px;
+}
+.address {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.nav1 .address img{
+    height: 18px;
+    width: 15px;
+}
+.nav1 .address h6{
+    font-size: 12px;
+    color: #CCCCCC;
+    font-weight: 300;
+
+}
+.nav1 .address h5{
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+#box2{
+    margin: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box2 .search{
+    display: flex;
+    gap: 0;
+    flex-wrap: nowrap;
+}
+#box2 .search select{
+    height: 40px;
+    width: 52px;
+    padding: 7px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #555555;
+    background-color: #E6E6E6;
+    border-radius: 7px 0 0 7px;
+}
+#box2 .search input{
+    height: 30px;
+    width: 574px;
+    padding: 5px 10px;
+    flex: 1;
+    min-width: 0;
+    border: 0px;
+}
+#box2 .search button{
+    height: 40px;
+    width: 45px;
+    background-color: #FEBD69;
+    border: 0px;
+    border-radius: 0 7px 7px 0;
+    font-size: 20px;   
+}
+
+#box3{
+    margin: 5px 10px;
+}
+
+
+#box3 .lang{
+    height: 55px;
+    width: 62px;
+    display: flex;
+    align-items: center;
+}
+
+#box3 .lang img{
+    height: 19px;
+    width: 22px;
+    object-fit: contain;
+}
+#box3 .lang h5, 
+#box3 .lang i{
+    color: #fff;
+    font-size: 14px;
+}
+#box3 .ac{
+    height: 55px;
+    width: 145px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    color: #fff;
+}
+#box3 .ac h6{
+    font-size: 12px;
+    font-weight: 200;
+    flex-basis: 100%;
+}
+#box3 .ac h5,
+#box3 .ac i{
+    font-size: 14px;
+    font-weight: 500;
+    
+    display: inline-block;
+}
+#box3 .orders{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    height: 50px;
+    width: 77px;
+}
+#box3 .orders h6{
+    font-size: 12px;
+    font-weight: 200;
+}
+#box3 .orders h5{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#box3 .cart{
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    width: 97px;
+}
+#box3 .cart i{
+    font-size: 40px;
+}
+#box3 .cart h5{
+    font-size: 14px;
+}
