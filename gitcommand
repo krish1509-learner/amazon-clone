@@ -1,4 +1,4 @@
-git status
+git pull origin main
 git add .
-git commit -m "Add project files"
-git push -u origin main
+git commit -m "Updated files"
+git push origin main
